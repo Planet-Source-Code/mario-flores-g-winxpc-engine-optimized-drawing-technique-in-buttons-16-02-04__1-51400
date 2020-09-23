@@ -1,0 +1,31 @@
+Author : Mario Alberto Flores Gonzalez
+E-mail: sistec_de_juarez@hotmail.com
+
+
+//================================================================================================
+		   	This is the Open Source code to WinXPC  Engine 1.0.0
+//================================================================================================
+
+
+					STEP2 REGISTERING THE OCX
+
+
+     !!!!!!!!!!!!    Please you must follow in correct order this one time... To make sure the ocx is correctly installed on your system     !!!!!!!!!!!!
+
+
+                  Note: ..You must have completed all ready  Step 1.. before this
+
+
+
+     Step 2.-  Register the  WinXPC  Engine 1.0.0.ocx    Located in the:  "Windows\System32\"    
+
+
+                   //---HOW TO:                    
+
+                    1.1.- Use the Shell App Located in the "RegisterShell" Folder ..... or in other case use the    ( regsvr32 "WinXPC Engine.ocx") instruction in the  RUN window
+
+                     
+
+                                       			                  THAT'S ALL...... 
+                       
+         

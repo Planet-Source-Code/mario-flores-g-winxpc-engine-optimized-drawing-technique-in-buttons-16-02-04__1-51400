@@ -1,0 +1,362 @@
+VERSION 5.00
+Begin VB.PropertyPage PropertyPage1 
+   Caption         =   "Options"
+   ClientHeight    =   3705
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   9765
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   3705
+   ScaleWidth      =   9765
+   Begin VB.CheckBox CheckType 
+      Caption         =   "Subclass CommonDialog"
+      Height          =   255
+      Index           =   18
+      Left            =   6240
+      TabIndex        =   24
+      Top             =   1080
+      Width           =   3135
+   End
+   Begin VB.CheckBox CheckType 
+      Caption         =   "DirListBox"
+      Height          =   255
+      Index           =   17
+      Left            =   240
+      TabIndex        =   23
+      Top             =   1800
+      Width           =   1575
+   End
+   Begin VB.CheckBox CheckType 
+      Caption         =   "FileListBox"
+      Height          =   255
+      Index           =   16
+      Left            =   240
+      TabIndex        =   22
+      Top             =   2520
+      Width           =   1335
+   End
+   Begin VB.CheckBox CheckType 
+      Caption         =   "ListBox"
+      Height          =   255
+      Index           =   15
+      Left            =   2280
+      TabIndex        =   21
+      Top             =   1440
+      Width           =   1335
+   End
+   Begin VB.ComboBox ComboColors 
+      Height          =   315
+      ItemData        =   "PropertyPage1.pgx":0000
+      Left            =   6600
+      List            =   "PropertyPage1.pgx":0010
+      TabIndex        =   19
+      Text            =   "WinXP BlueTheme Colors"
+      Top             =   2040
+      Width           =   2415
+   End
+   Begin VB.CheckBox CheckType 
+      Caption         =   "PictureBox"
+      Height          =   255
+      Index           =   13
+      Left            =   2280
+      TabIndex        =   18
+      Top             =   2520
+      Width           =   1335
+   End
+   Begin VB.CheckBox CheckType 
+      Caption         =   "Subclass MessageBoxes && InputBoxes"
+      Height          =   255
+      Index           =   14
+      Left            =   6240
+      TabIndex        =   14
+      Top             =   720
+      Width           =   3135
+   End
+   Begin VB.CheckBox CheckType 
+      Caption         =   "DriveListBox"
+      Height          =   255
+      Index           =   12
+      Left            =   240
+      TabIndex        =   13
+      Top             =   2160
+      Width           =   1575
+   End
+   Begin VB.CheckBox CheckIDE 
+      Caption         =   "Enable Engine (IDE)"
+      Height          =   255
+      Left            =   240
+      TabIndex        =   12
+      Top             =   3240
+      Width           =   2055
+   End
+   Begin VB.CheckBox CheckType 
+      Caption         =   "ListView"
+      Height          =   255
+      Index           =   11
+      Left            =   2280
+      TabIndex        =   11
+      Top             =   1800
+      Width           =   1335
+   End
+   Begin VB.CheckBox CheckType 
+      Caption         =   "Frame"
+      Height          =   255
+      Index           =   10
+      Left            =   2280
+      TabIndex        =   10
+      Top             =   720
+      Width           =   1335
+   End
+   Begin VB.CheckBox CheckType 
+      Caption         =   "CommandButton"
+      Height          =   255
+      Index           =   9
+      Left            =   240
+      TabIndex        =   9
+      Top             =   1440
+      Width           =   1575
+   End
+   Begin VB.CheckBox CheckType 
+      Caption         =   "ImageCombo"
+      Height          =   255
+      Index           =   8
+      Left            =   2280
+      TabIndex        =   8
+      Top             =   1080
+      Width           =   1335
+   End
+   Begin VB.CheckBox CheckType 
+      Caption         =   "Slider"
+      Height          =   255
+      Index           =   7
+      Left            =   4200
+      TabIndex        =   7
+      Top             =   1080
+      Width           =   1335
+   End
+   Begin VB.CheckBox CheckType 
+      Caption         =   "ProgressBar"
+      Height          =   255
+      Index           =   6
+      Left            =   4200
+      TabIndex        =   6
+      Top             =   720
+      Width           =   1335
+   End
+   Begin VB.CheckBox CheckType 
+      Caption         =   "StatusBar"
+      Height          =   255
+      Index           =   5
+      Left            =   4200
+      TabIndex        =   5
+      Top             =   1440
+      Width           =   1335
+   End
+   Begin VB.CheckBox CheckType 
+      Caption         =   "TabStrip"
+      Height          =   255
+      Index           =   4
+      Left            =   4200
+      TabIndex        =   4
+      Top             =   1800
+      Width           =   1335
+   End
+   Begin VB.CheckBox CheckType 
+      Caption         =   "ComboBox"
+      Height          =   255
+      Index           =   3
+      Left            =   240
+      TabIndex        =   3
+      Top             =   1080
+      Width           =   1335
+   End
+   Begin VB.CheckBox CheckType 
+      Caption         =   "OptionButton"
+      Height          =   255
+      Index           =   2
+      Left            =   2280
+      TabIndex        =   2
+      Top             =   2160
+      Width           =   1335
+   End
+   Begin VB.CheckBox CheckType 
+      Caption         =   "CheckBox"
+      Height          =   255
+      Index           =   1
+      Left            =   240
+      TabIndex        =   1
+      Top             =   720
+      Width           =   1215
+   End
+   Begin VB.CheckBox CheckType 
+      Caption         =   "TextBox"
+      Height          =   255
+      Index           =   0
+      Left            =   4200
+      TabIndex        =   0
+      Top             =   2160
+      Width           =   1215
+   End
+   Begin VB.Label Label4 
+      AutoSize        =   -1  'True
+      Caption         =   "Color Scheme:"
+      ForeColor       =   &H00825623&
+      Height          =   195
+      Left            =   6600
+      TabIndex        =   20
+      Top             =   1800
+      Width           =   1035
+   End
+   Begin VB.Label Label3 
+      Caption         =   "E-m@il me: sistec_de_juarez@hotmail.com"
+      Height          =   255
+      Left            =   6240
+      MouseIcon       =   "PropertyPage1.pgx":007B
+      MousePointer    =   99  'Custom
+      TabIndex        =   17
+      Top             =   2640
+      Width           =   3135
+   End
+   Begin VB.Label Label2 
+      AutoSize        =   -1  'True
+      Caption         =   "By Mario Alberto Flores Gonzalez"
+      ForeColor       =   &H00800000&
+      Height          =   195
+      Left            =   4560
+      TabIndex        =   16
+      Top             =   120
+      Width           =   2325
+   End
+   Begin VB.Label Label1 
+      AutoSize        =   -1  'True
+      Caption         =   "WinXPC Engine 1.0.0"
+      Height          =   195
+      Left            =   2880
+      TabIndex        =   15
+      Top             =   120
+      Width           =   1545
+   End
+   Begin VB.Line Line1 
+      BorderColor     =   &H00825623&
+      BorderWidth     =   2
+      X1              =   240
+      X2              =   9360
+      Y1              =   3120
+      Y2              =   3120
+   End
+End
+Attribute VB_Name = "PropertyPage1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Const Col1 = vbBlack
+Const Col2 = vbBlue
+Dim Flag As Boolean
+
+
+
+Private Sub CheckIDE_MouseUp(Button As Integer, Shift As Integer, X As Single, Y As Single)
+
+        
+If CheckIDE.Value = 1 Then
+    If MsgBox("IDE Subclassing is not fully Operational and may be dangerous to your system!!" & vbCrLf & vbCrLf & "               On your Own risk do you still whant to Proceed?...", vbExclamation + vbYesNo, "Warning!!") = vbNo Then CheckIDE.Value = 0
+End If
+    
+Changed = True
+    
+End Sub
+
+Private Sub CheckType_Click(index As Integer)
+Changed = True
+End Sub
+
+
+
+Private Sub ComboColors_Click()
+Changed = True
+End Sub
+
+Private Sub Label3_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
+    If Flag = False Then
+       Flag = True
+       Label3.Forecolor = Col2
+    End If
+End Sub
+
+Private Sub PropertyPage_ApplyChanges()
+    
+
+
+    With SelectedControls(0)
+        .IDE = CheckIDE
+        .ColorScheme = ComboColors.ListIndex + 1
+        .TextControl = CheckType(0)
+        .CheckControl = CheckType(1)
+        .OptionControl = CheckType(2)
+        .ComboBoxControl = CheckType(3)
+        .TabStripControl = CheckType(4)
+        .StatusBarControl = CheckType(5)
+        .ProgressBarControl = CheckType(6)
+        .SliderControl = CheckType(7)
+        .ImageComboControl = CheckType(8)
+        .ButtonControl = CheckType(9)
+        .FrameControl = CheckType(10)
+        .ListViewControl = CheckType(11)
+        .DriveListBoxControl = CheckType(12)
+        .PictureControl = CheckType(13)
+        .MsgBox_InputBox = CheckType(14)
+        .ListBoxControl = CheckType(15)
+        .FileListBoxControl = CheckType(16)
+        .DirListBoxControl = CheckType(17)
+        .Common_Dialog = CheckType(18)
+    End With
+    
+    
+    Changed = False
+
+End Sub
+
+Private Sub PropertyPage_Initialize()
+'PropertyPage_SelectionChanged
+End Sub
+
+Private Sub PropertyPage_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
+ If Flag = True Then
+       Flag = False
+       Label3.Forecolor = Col1
+    End If
+End Sub
+
+Private Sub PropertyPage_SelectionChanged()
+
+
+  With SelectedControls(0)
+        CheckIDE.Value = IIf(.IDE = True, 1, 0)
+        ComboColors.ListIndex = (.ColorScheme) - 1
+        CheckType(0) = IIf(.TextControl = True, 1, 0)
+        CheckType(1) = IIf(.CheckControl = True, 1, 0)
+        CheckType(2) = IIf(.OptionControl = True, 1, 0)
+        CheckType(3) = IIf(.ComboBoxControl = True, 1, 0)
+        CheckType(4) = IIf(.TabStripControl = True, 1, 0)
+        CheckType(5) = IIf(.StatusBarControl = True, 1, 0)
+        CheckType(6) = IIf(.ProgressBarControl = True, 1, 0)
+        CheckType(7) = IIf(.SliderControl = True, 1, 0)
+        CheckType(8) = IIf(.ImageComboControl = True, 1, 0)
+        CheckType(9) = IIf(.ButtonControl = True, 1, 0)
+        CheckType(10) = IIf(.FrameControl = True, 1, 0)
+        CheckType(11) = IIf(.ListViewControl = True, 1, 0)
+        CheckType(12) = IIf(.DriveListBoxControl = True, 1, 0)
+        CheckType(13) = IIf(.PictureControl = True, 1, 0)
+        CheckType(14) = IIf(.MsgBox_InputBox = True, 1, 0)
+        CheckType(15) = IIf(.ListBoxControl = True, 1, 0)
+        CheckType(16) = IIf(.FileListBoxControl = True, 1, 0)
+        CheckType(17) = IIf(.DirListBoxControl = True, 1, 0)
+        CheckType(18) = IIf(.Common_Dialog = True, 1, 0)
+    End With
+
+
+
+
+
+End Sub

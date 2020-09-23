@@ -1,0 +1,61 @@
+WinXPC Engine revisions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Version 1.0 
+~~~~~~~~~~~
+
+2004-01-01	- Initial implementation.
+
+
+Version 1.0.1
+~~~~~~~~~~~
+
+2004-01-02	- ADD: Support For CommonDialog.
+
+
+Version 1.0.2
+~~~~~~~~~~~
+
+2004-01-04	- FIX:  Bug in TabStripControl :When Drawing Seems More Clean.
+		- FIX:  Bug in CommandButton : FocusRect Correct Position.
+                                     - ADD: Some Controls Now Support the Olive Green Scheme Color.
+
+Version 1.0.3
+~~~~~~~~~~~
+
+2004-01-05	- FIX:  Forgot to Add Support for TabStripControl version 5.0 (SP5). Now Fixed
+		- ADD: Tabs in TabStripControl version 5.0 (SP5) Now  Support Images.
+
+Version 1.0.4
+~~~~~~~~~~~
+
+2004-01-07	- ADD: ADODC Control Support.--Only 1 Control Each Form.
+
+
+Version 1.0.5
+~~~~~~~~~~~
+
+2004-01-08	-FIX: ADODC Control  Supports Multiple Controls in Each Form  -----   Thanks to jkozee@bowser-morner.com for the tip.
+                                     -FIX: There Was a Problem With MsgBoxes and Other Controls that aren't VB objects when ADODC MoveEvent was Fired...(VB Crash)
+                                     -ADD: Some Controls Now Support the Silver Scheme Color.                                  
+
+Version 1.0.6
+~~~~~~~~~~~
+
+2004-01-16	-FIX: Buttons Are Drawn when user uses the space bar to push button (Added KeyDown-KeyUp Support) .
+                                     -CHANGE:   <Caption-Bitmap-Focus Rect> are drawn by the System..    Eventualy All Controls may be drawn by similar Technique (Future Version)
+                                     -ADD:   Added "PrePaintControl-PosPaintControl" Functions.. Buttons are not DrawOver (Used Temporay DC)  Now Buttons are Smarter and don't draw if they don't need to (Takes Less Code).                                  
+                                     -ADD:  MessageBox && InputBox Now Support Scheme Colors (Themes)
+                                     -ADD: Color Dialog + Office XP Style..(Demo Only Complete Version on next Engine Version)
+
+                                                          
+                                                                 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!                                  "IMPORTANT"                 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                                                             I Have Been Recoding Alot of Functions and Some Classes need to be Recoded..so instead of Updating the Engine 
+                                                             I will post a new one when all changes and fixes are done.. Expect a lot of more functions and new tricks ..some of them 
+                                                             are all ready coded but are going to be posted when they are Completely tested.. to avoid to much Updates..
+
+                                                            Im Coding The AntiFlicker Technique on different controls and the GUI seems a lot better ..so be sure its going to be a big difference 
+
+                                                             Atte:     Mario Flores
