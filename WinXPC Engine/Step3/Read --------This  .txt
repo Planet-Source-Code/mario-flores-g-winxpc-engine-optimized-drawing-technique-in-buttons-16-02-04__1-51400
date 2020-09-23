@@ -1,0 +1,30 @@
+Author : Mario Alberto Flores Gonzalez
+E-mail: sistec_de_juarez@hotmail.com
+
+
+//================================================================================================
+		   	This is the Open Source code to WinXPC  Engine 1.0.0
+//================================================================================================
+
+
+				STEP 3  ADD THE COMPILED OCX TO YOUR APPS
+
+                                                                 In the Folder Named "Simple App" Located under the same root of this file
+                                                                             I have Included a Demo that you can View on the Engine...
+                                                                          
+                                                             Yust Add the Component From The Components Window Under the Proyect Menu in VB
+ 
+				        The Component Name is "WinXPC Engine"
+ 
+
+						    ENJOY    
+
+
+
+
+                PLEASE TELL ME ANY SUGESTION OR COMMENT THAT YOU HAVE ...
+                                        
+
+					MARIO ALBERTO FLORES GONZALEZ 
+
+					CD JUAREZ CHIHUAHUA MEXICO.

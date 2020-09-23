@@ -1,0 +1,26 @@
+Author : Mario Alberto Flores Gonzalez
+E-mail: sistec_de_juarez@hotmail.com
+
+
+//================================================================================================
+	   	   	This is the Open Source code to WinXPC  Engine 1.0.0
+//================================================================================================
+
+
+					STEP 1 COMPILING THE OCX
+
+
+     !!!!!!!!!!!!    Please you must follow in correct order this one time... To make sure the ocx is correctly installed on your system     !!!!!!!!!!!!
+
+     Step 1.-  Compile the  WinXPC Engine 1.0.0.ocx    Located in the:  "WinXPC Engine ActiveX Code"  Folder
+
+                   //---HOW TO:                    
+
+                    1.1.- Please when Compiling ...Compile this ocx in the "OS System Folder"  Folder  (When VB Prompts the destination Folder 
+                             use your "windows\system32\" Folder)
+
+                     
+
+                                       			              THATS ALL...... 
+                       
+                 PLEASE DON'T MAKE ANY MODIFICATIONS TO THE  VERSION INFORMATION WHEN COMPILING..SEE....  EULA TERMS
